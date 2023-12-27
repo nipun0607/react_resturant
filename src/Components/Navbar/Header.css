@@ -1,0 +1,56 @@
+.header_navbar{
+display: flex;
+justify-content: space-between;
+position:sticky;
+top: 1;
+z-index: 1;
+width:100%;
+background-color:#cccc;
+border-bottom: 2px solid black;
+
+
+}
+.navbar_first{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:1rem;
+    margin-left: 1rem;
+}
+.logo{
+    width:20px;
+}
+h4{
+    font-size: 1.5rem;
+}
+.navbar_second .navbar_list{
+    display: flex;
+    list-style:none ;
+    gap:2rem;
+
+}
+.navbar_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    gap:2rem
+}
+#Get_started{
+    background-color: #1D4ED8;
+    width:90px;
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+  
+}
+.navbar_btn{
+  
+   margin-top: 10px;
+}
+
+

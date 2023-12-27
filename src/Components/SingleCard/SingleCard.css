@@ -1,0 +1,24 @@
+
+
+.single_card{
+   width:30%;
+   border:2px solid black;
+   background-color: #FFFFFF;
+   border-radius: 10px;
+   height:350px;
+   margin-top: 20px;
+
+}
+.name_rating{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+}
+.singlecard_footer{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    background-color: #ccc;
+    
+}

@@ -1,0 +1,43 @@
+.searchboxes{
+    width:80%;
+    position:absolute;
+    z-index: 10;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border:2px solid red; */
+    margin-left: 10rem;
+    /* margin-bottom: 100px; */
+
+    
+}
+.searchboxes input{
+height:30px;
+font-size: 20px;
+text-align: center;
+}
+.searchrating label{
+    vertical-align: center;
+}
+.searchrating{
+    display: flex;
+
+    /* border:2px solid black; */
+    justify-content: space-between;
+    align-items: center;
+   
+
+}
+.Cards_main_container{
+    width:90%;
+    /* border:2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    
+    gap:20px;
+    margin-top:10rem;
+}
